@@ -1,0 +1,98 @@
+.homepage
+{
+	background-image: url('../assets/1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	/*background-size: 1366px 825px;*/
+	background-size: cover;
+}
+
+.login-page
+{
+	background-image: url('../assets/2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	/*background-size: 1366px 825px;*/
+		background-size: cover;
+}
+
+.signup-page
+{
+	background-image: url('../assets/3.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	/*background-size: 1366px 825px;*/
+		background-size: cover;
+}
+
+.doctorlogin-page
+{
+	background-image: url('../assets/4.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	/*background-size: 1366px 825px;*/
+		background-size: cover;
+}
+
+
+nav ul li
+{
+	display: flex;
+	float: right;
+	padding: 1em;
+	list-style-type: none;
+}
+
+a
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+
+a:hover
+{
+	color: blue;
+	cursor:pointer;
+}
+
+.welcome-back img
+{
+	cursor: pointer;
+	text-align:center;
+	margin-top: 8em;
+}
+
+.welcome-back:hover
+{
+	color: orangered;
+}
+
+.login-form, .label, .button, .forgot-password
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.login-form
+{
+	padding: 2em;
+	border: 3px solid white;
+	margin-top: 2em;
+	margin-left: 25em;
+	width: 20%;
+}
+
+
+.label
+{
+	margin: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.button
+{
+	margin-left: 3em;
+	margin-top: 1em;
+}
